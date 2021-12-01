@@ -1,0 +1,71 @@
+http://localhost:9000/clients   *POST*
+{
+    "first_name" : "Joe",
+    "last_name" : "Si"
+    
+}
+
+http://localhost:9000/clients   *GET*
+
+
+
+http://localhost:9000/clients/10 *GET*
+
+
+
+http://localhost:9000/clients/12 *PUT*
+
+
+
+http://localhost:9000/clients/15 *DELETE*
+
+
+
+http://localhost:9000/clients/5/accounts *POST*
+
+{
+    "account_id" : 2
+    
+}
+
+
+
+http://localhost:9000/clients/5/accounts  *GET*
+
+
+
+http://localhost:9000/clients/1/accounts?amountLessThan=2000&amountGreaterThan=400 *GET*
+
+
+
+
+http://localhost:9000/clients/1/accounts/2 *GET*
+
+
+
+http://localhost:9000/clients/1/accounts/2 *PUT*
+
+
+
+http://localhost:9000/clients/1/accounts/6   *DELETE*
+
+
+
+http://localhost:9000/clients/1/accounts/4  *PATCH*
+{
+    "withdraw": 100
+    
+}
+
+{
+    "deposit": 100
+    
+}
+
+
+http://localhost:9000/clients/1/accounts/4/transfer/3 *PATCH*
+
+{
+    "amount": 100
+    
+}

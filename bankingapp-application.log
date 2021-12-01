@@ -1,0 +1,247 @@
+2021-11-28 12:11:15 ERROR ClientsDaoImpl:106 - org.postgresql.util.PSQLException: The column index is out of range: 1, number of columns: 0.
+2021-11-28 12:22:04 ERROR ClientsDaoImpl:110 - org.postgresql.util.PSQLException: The column index is out of range: 1, number of columns: 0.
+2021-11-28 12:22:14 ERROR ClientsDaoImpl:110 - org.postgresql.util.PSQLException: The column index is out of range: 1, number of columns: 0.
+2021-11-28 12:22:22 ERROR ClientsDaoImpl:110 - org.postgresql.util.PSQLException: The column index is out of range: 1, number of columns: 0.
+2021-11-28 12:22:26 ERROR ClientsDaoImpl:110 - org.postgresql.util.PSQLException: The column index is out of range: 1, number of columns: 0.
+2021-11-30 18:21:09 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Referential integrity constraint violation: "CONSTRAINT_A: PUBLIC.ACCOUNTS FOREIGN KEY(CLIENT_ID) REFERENCES PUBLIC.CLIENTS(CLIENT_ID) (1)"; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [23506-200]
+2021-11-30 18:21:10 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Referential integrity constraint violation: "CONSTRAINT_A: PUBLIC.ACCOUNTS FOREIGN KEY(CLIENT_ID) REFERENCES PUBLIC.CLIENTS(CLIENT_ID) (1)"; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [23506-200]
+2021-11-30 18:21:10 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Referential integrity constraint violation: "CONSTRAINT_A: PUBLIC.ACCOUNTS FOREIGN KEY(CLIENT_ID) REFERENCES PUBLIC.CLIENTS(CLIENT_ID) (1)"; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [23506-200]
+2021-11-30 18:21:59 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Referential integrity constraint violation: "CONSTRAINT_A: PUBLIC.ACCOUNTS FOREIGN KEY(CLIENT_ID) REFERENCES PUBLIC.CLIENTS(CLIENT_ID) (1)"; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [23506-200]
+2021-11-30 18:21:59 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Referential integrity constraint violation: "CONSTRAINT_A: PUBLIC.ACCOUNTS FOREIGN KEY(CLIENT_ID) REFERENCES PUBLIC.CLIENTS(CLIENT_ID) (1)"; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [23506-200]
+2021-11-30 18:21:59 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Referential integrity constraint violation: "CONSTRAINT_A: PUBLIC.ACCOUNTS FOREIGN KEY(CLIENT_ID) REFERENCES PUBLIC.CLIENTS(CLIENT_ID) (1)"; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [23506-200]
+2021-11-30 18:27:36 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_A ON PUBLIC.ACCOUNTS(ACCOUNT_ID, CLIENT_ID) VALUES 1"; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [23505-200]
+2021-11-30 18:27:36 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_A ON PUBLIC.ACCOUNTS(ACCOUNT_ID, CLIENT_ID) VALUES 2"; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [23505-200]
+2021-11-30 18:27:36 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_A ON PUBLIC.ACCOUNTS(ACCOUNT_ID, CLIENT_ID) VALUES 3"; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [23505-200]
+2021-11-30 18:30:22 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_A ON PUBLIC.ACCOUNTS(ACCOUNT_ID, CLIENT_ID) VALUES 1"; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [23505-200]
+2021-11-30 18:30:22 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_A ON PUBLIC.ACCOUNTS(ACCOUNT_ID, CLIENT_ID) VALUES 2"; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [23505-200]
+2021-11-30 18:30:22 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_A ON PUBLIC.ACCOUNTS(ACCOUNT_ID, CLIENT_ID) VALUES 3"; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [23505-200]
+2021-11-30 18:31:26 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_A ON PUBLIC.ACCOUNTS(ACCOUNT_ID, CLIENT_ID) VALUES 1"; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [23505-200]
+2021-11-30 18:31:26 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_A ON PUBLIC.ACCOUNTS(ACCOUNT_ID, CLIENT_ID) VALUES 2"; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [23505-200]
+2021-11-30 18:31:26 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_A ON PUBLIC.ACCOUNTS(ACCOUNT_ID, CLIENT_ID) VALUES 3"; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [23505-200]
+2021-11-30 18:36:09 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_A ON PUBLIC.ACCOUNTS(ACCOUNT_ID, CLIENT_ID) VALUES 1"; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [23505-200]
+2021-11-30 18:37:48 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_A ON PUBLIC.ACCOUNTS(ACCOUNT_ID, CLIENT_ID) VALUES 1"; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [23505-200]
+2021-11-30 18:37:48 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_A ON PUBLIC.ACCOUNTS(ACCOUNT_ID, CLIENT_ID) VALUES 2"; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [23505-200]
+2021-11-30 18:37:48 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_A ON PUBLIC.ACCOUNTS(ACCOUNT_ID, CLIENT_ID) VALUES 3"; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [23505-200]
+2021-11-30 18:39:51 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_A ON PUBLIC.ACCOUNTS(ACCOUNT_ID, CLIENT_ID) VALUES 1"; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [23505-200]
+2021-11-30 18:39:51 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_A ON PUBLIC.ACCOUNTS(ACCOUNT_ID, CLIENT_ID) VALUES 2"; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [23505-200]
+2021-11-30 18:39:51 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_A ON PUBLIC.ACCOUNTS(ACCOUNT_ID, CLIENT_ID) VALUES 3"; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [23505-200]
+2021-11-30 18:44:00 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:44:00 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:44:00 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:44:00 ERROR ClientsDaoImpl:54 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+SELECT * FROM accounts WHERE client_id = ?; [42102-200]
+2021-11-30 18:45:49 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:45:49 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:45:49 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:45:49 ERROR ClientsDaoImpl:54 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+SELECT * FROM accounts WHERE client_id = ?; [42102-200]
+2021-11-30 18:46:53 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:46:53 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:46:53 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:46:53 ERROR ClientsDaoImpl:54 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+SELECT * FROM accounts WHERE client_id = ?; [42102-200]
+2021-11-30 18:47:02 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:47:02 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:47:02 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:47:02 ERROR ClientsDaoImpl:54 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+SELECT * FROM accounts WHERE client_id = ?; [42102-200]
+2021-11-30 18:47:29 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:47:29 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:47:29 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:47:29 ERROR ClientsDaoImpl:54 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+SELECT * FROM accounts WHERE client_id = ?; [42102-200]
+2021-11-30 18:48:13 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:48:13 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:48:13 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:48:13 ERROR ClientsDaoImpl:80 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+SELECT * FROM accounts WHERE client_id = ? AND account_id = ?; [42102-200]
+2021-11-30 18:48:51 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:48:51 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:48:51 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:48:51 ERROR ClientsDaoImpl:80 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+SELECT * FROM accounts WHERE client_id = ? AND account_id = ?; [42102-200]
+2021-11-30 18:49:47 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:49:47 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:49:47 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:49:47 ERROR ClientsDaoImpl:54 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+SELECT * FROM accounts WHERE client_id = ?; [42102-200]
+2021-11-30 18:50:22 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:50:22 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:50:22 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:50:22 ERROR ClientsDaoImpl:54 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+SELECT * FROM accounts WHERE client_id = ?; [42102-200]
+2021-11-30 18:51:07 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:51:07 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:51:07 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:51:07 ERROR ClientsDaoImpl:54 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+SELECT * FROM accounts WHERE client_id = ?; [42102-200]
+2021-11-30 18:52:26 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:52:26 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:52:26 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:52:26 ERROR ClientsDaoImpl:54 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+SELECT * FROM accounts WHERE client_id = ?; [42102-200]
+2021-11-30 18:55:37 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:55:37 ERROR ClientsDaoImpl:119 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+UPDATE accounts SET account_is_open = FALSE WHERE client_id = ? AND account_id = ?; [42102-200]
+2021-11-30 18:55:37 ERROR ClientsDaoImpl:80 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+SELECT * FROM accounts WHERE client_id = ? AND account_id = ?; [42102-200]
+2021-11-30 18:58:16 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:58:16 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:58:16 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:58:16 ERROR ClientsDaoImpl:54 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+SELECT * FROM accounts WHERE client_id = ?; [42102-200]
+2021-11-30 18:58:45 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:58:45 ERROR ClientsDaoImpl:119 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+UPDATE accounts SET account_is_open = FALSE WHERE client_id = ? AND account_id = ?; [42102-200]
+2021-11-30 18:58:45 ERROR ClientsDaoImpl:80 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+SELECT * FROM accounts WHERE client_id = ? AND account_id = ?; [42102-200]
+2021-11-30 18:58:57 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:58:57 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:58:57 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:58:57 ERROR ClientsDaoImpl:54 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+SELECT * FROM accounts WHERE client_id = ?; [42102-200]
+2021-11-30 18:59:10 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:59:10 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:59:10 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 18:59:10 ERROR ClientsDaoImpl:54 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+SELECT * FROM accounts WHERE client_id = ?; [42102-200]
+2021-11-30 19:07:22 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 19:07:22 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 19:07:22 ERROR ClientsDaoImpl:80 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+SELECT * FROM accounts WHERE client_id = ? AND account_id = ?; [42102-200]
+2021-11-30 19:10:37 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 19:10:37 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 19:10:37 ERROR ClientsDaoImpl:80 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+SELECT * FROM accounts WHERE client_id = ? AND account_id = ?; [42102-200]
+2021-11-30 19:11:04 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 19:11:04 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 19:11:04 ERROR ClientsDaoImpl:80 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+SELECT * FROM accounts WHERE client_id = ? AND account_id = ?; [42102-200]
+2021-11-30 19:11:34 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 19:11:34 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 19:11:34 ERROR ClientsDaoImpl:80 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+SELECT * FROM accounts WHERE client_id = ? AND account_id = ?; [42102-200]
+2021-11-30 19:11:59 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 19:11:59 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 19:11:59 ERROR ClientsDaoImpl:80 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+SELECT * FROM accounts WHERE client_id = ? AND account_id = ?; [42102-200]
+2021-11-30 19:12:03 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Referential integrity constraint violation: "CONSTRAINT_A: PUBLIC.ACCOUNTS FOREIGN KEY(CLIENT_ID) REFERENCES PUBLIC.CLIENTS(CLIENT_ID) (2)"; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [23506-200]
+2021-11-30 19:12:07 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 19:12:07 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 19:12:07 ERROR ClientsDaoImpl:80 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+SELECT * FROM accounts WHERE client_id = ? AND account_id = ?; [42102-200]
+2021-11-30 19:12:52 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 19:12:52 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 19:12:52 ERROR ClientsDaoImpl:80 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+SELECT * FROM accounts WHERE client_id = ? AND account_id = ?; [42102-200]
+2021-11-30 19:14:56 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 19:14:56 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 19:14:58 ERROR ClientsDaoImpl:80 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+SELECT * FROM accounts WHERE client_id = ? AND account_id = ?; [42102-200]
+2021-11-30 19:14:58 ERROR ClientsDaoImpl:80 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+SELECT * FROM accounts WHERE client_id = ? AND account_id = ?; [42102-200]
+2021-11-30 19:18:41 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 19:18:41 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 19:18:43 ERROR ClientsDaoImpl:80 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+SELECT * FROM accounts WHERE client_id = ? AND account_id = ?; [42102-200]
+2021-11-30 19:18:43 ERROR ClientsDaoImpl:80 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+SELECT * FROM accounts WHERE client_id = ? AND account_id = ?; [42102-200]
+2021-11-30 19:23:37 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 19:23:37 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 19:23:39 ERROR ClientsDaoImpl:80 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+SELECT * FROM accounts WHERE client_id = ? AND account_id = ?; [42102-200]
+2021-11-30 19:23:39 ERROR ClientsDaoImpl:80 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+SELECT * FROM accounts WHERE client_id = ? AND account_id = ?; [42102-200]
+2021-11-30 19:26:21 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 19:26:21 ERROR ClientsDaoImpl:99 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+INSERT INTO accounts VALUES(?, ?, DEFAULT, DEFAULT, DEFAULT); [42102-200]
+2021-11-30 19:26:21 ERROR ClientsDaoImpl:80 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNTS" not found; SQL statement:
+SELECT * FROM accounts WHERE client_id = ? AND account_id = ?; [42102-200]
